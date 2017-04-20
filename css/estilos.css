@@ -1,0 +1,82 @@
+body{
+  font-family: 'Dancing Script', cursive;
+  background-color: #02010a;
+
+
+}
+
+.container{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+}
+
+
+.container div{
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.cabecera{
+  background-color: #5b7989;
+  width: 100%;
+  padding: 5%;
+}
+
+.imagenCentral{
+  background-color: #82c3a6;
+  padding: 5px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+
+.imagenSecundaria{
+  background-color: #d5c75f;
+  padding: 5px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  overflow: hidden;
+}
+
+.piePagina{
+  background-color: #c6d5c5;
+  padding-bottom: 20%;
+  width: 100%;
+}
+h1{
+  color: white;
+  text-shadow: 2px 2px #02010a;
+}
+ul{
+  overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+}
+li{
+  float: right;
+  margin: 0px 5px;
+}
+a{
+  color: white;
+  text-shadow: 2px 2px #02010a;
+}
+
+.imagen1{
+  margin: 10%;
+  max-width: 80%;
+}
+
+.izquierda{
+  float: left;
+  text-align: center;
+  display: inline-block;
+  margin: 5%;
+}
+
+.derecha{
+  float: right;
+  text-align: center;
+  display: inline-block;
+  margin: 5%;
+
+}
