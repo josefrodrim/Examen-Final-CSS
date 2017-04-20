@@ -44,6 +44,7 @@ body{
   width: 100%;
   margin: 0 auto 0 auto;
   overflow: hidden;
+
 }
 h1{
   color: white;
@@ -96,7 +97,7 @@ a{
 
 
 .c1, .c2,  .c3,  .c4 {
-  
+
     margin: 4%;
     margin-top: 0;
     display: inline-block;
@@ -145,4 +146,70 @@ a{
 
 #i3{
   filter: sepia(90%);
+}
+
+@media screen and (max-width:420px) {
+  .c1, .c2,  .c3,  .c4 {
+
+      margin: 4%;
+      margin-top: 0;
+      display: block;
+      position: relative;
+      width: 15%;
+  }
+
+  .izquierda{
+
+    text-align: center;
+    display: block;
+    margin: 5%;
+  }
+
+  .derecha{
+
+    text-align: center;
+    display: block;
+    margin: 5%;
+
+  }
+
+  #paisajes div{
+
+    padding: 5px;
+      margin: 5%;
+      display: block;
+      position: relative;
+      width: 20%;
+  }
+  .cabecera{
+    display: block;
+    text-align: center;
+  }
+
+  #menu-principal{
+    display: inline-block;
+    text-align: center;
+  }
+
+}
+
+.container{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+
+  }
+  100%{
+    margin-top: -5%;
+  }
+
+
+
+
 }
