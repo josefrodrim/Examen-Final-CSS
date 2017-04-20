@@ -40,8 +40,10 @@ body{
 
 .piePagina{
   background-color: #c6d5c5;
-  padding-bottom: 20%;
+  padding: 5px;
   width: 100%;
+  margin: 0 auto 0 auto;
+  overflow: hidden;
 }
 h1{
   color: white;
@@ -79,4 +81,68 @@ a{
   display: inline-block;
   margin: 5%;
 
+}
+
+
+#pie div h1{
+  color: black;
+  text-shadow: none;
+}
+
+#pie div a{
+  color: black;
+  text-shadow: none;
+}
+
+
+.c1, .c2,  .c3,  .c4 {
+  
+    margin: 4%;
+    margin-top: 0;
+    display: inline-block;
+    position: relative;
+    width: 15%;
+}
+
+#imagen1{
+   transition-property: transform;
+
+   transition-duration: 5s;
+}
+
+#imagen1:hover{
+  transform: rotate(10deg);
+
+}
+
+#imagen2{
+   transition-property: transform;
+
+   transition-duration: 1s;
+}
+
+#imagen2:hover{
+  transform: translate(20px, -5px);
+
+}
+
+#paisajes div{
+
+  padding: 5px;
+    margin: 5%;
+    display: inline-block;
+    position: relative;
+    width: 20%;
+}
+
+#i1{
+  filter: blur(10px);
+}
+
+#i2, #i4, #i6{
+  filter: grayscale(100%);
+}
+
+#i3{
+  filter: sepia(90%);
 }
